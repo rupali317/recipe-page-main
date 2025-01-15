@@ -1,0 +1,53 @@
+/* --------------------- CSS definitions --------------------- */
+:root {
+  /* Colors */
+  --color-primary-1: hsl(332, 51%, 32%);
+  --color-primary-2: hsl(330, 100%, 98%);
+  --color-secondary-1: hsl(30, 54%, 90%);
+  --color-secondary-2: hsl(14, 45%, 36%);
+  --color-neutral-1: hsl(0, 0%, 100%);
+  --color-neutral-2: hsl(24, 5%, 18%);
+  --color-neutral-3: hsl(30, 10%, 34%);
+  --color-neutral-4: hsl(30, 18%, 87%);
+  /* Typography */
+  /* Spacing */
+  /* Border radius */
+  /* Border width */
+}
+
+@font-face {
+  font-family: "YoungSerif";
+  src: url("./assets/fonts/young-serif/YoungSerif-Regular.ttf")
+    format("truetype");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Outfit";
+  src: url("/assets/fonts/outfit/static/Outfit-Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Outfit";
+  src: url("./assets/fonts/outfit/static/Outfit-SemiBold.ttf")
+    format("truetype");
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Outfit";
+  src: url("./assets/fonts/outfit/static/Outfit-Bold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+}
+
+/* --------------------- CSS reset --------------------- */
+/* --------------------- Main stylings --------------------- */
