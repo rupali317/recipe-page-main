@@ -9,10 +9,37 @@
   --color-neutral-2: hsl(24, 5%, 18%);
   --color-neutral-3: hsl(30, 10%, 34%);
   --color-neutral-4: hsl(30, 18%, 87%);
+
   /* Typography */
+  --font-size-1: 1rem; /* 16px */
+  --font-size-2: 1.25rem; /* 20px */
+  --font-size-3: 1.75rem; /* 28px */
+  --font-size-4: 2.5rem; /* 40px */
+
+  --line-height-1: 100%;
+  --line-height-2: 150%;
+
+  --font-weight-regular: 400;
+  --font-weight-semi-bold: 600;
+  --font-weight-bold: 700;
+
   /* Spacing */
+  --spacing-100: 0.5rem; /* 8px */
+  --spacing-150: 0.75rem; /* 12px */
+  --spacing-200: 1rem; /* 16px */
+  --spacing-300: 1.5rem; /* 24px */
+  --spacing-400: 2rem; /* 32px */
+  --spacing-500: 2.5rem; /* 40px */
+  --spacing-600: 3rem; /* 48px */
+  --spacing-1600: 8rem; /* 128px */
+
   /* Border radius */
+  --border-radius-none: 0rem;
+  --border-radius-soft: 0.75rem; /* 12px */
+  --border-radius-softer: 1.5rem; /* 24px */
+
   /* Border width */
+  --border-width-1: 0.0625rem; /* 1px */
 }
 
 @font-face {
