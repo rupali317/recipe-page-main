@@ -25,6 +25,7 @@
   --font-weight-bold: 700;
 
   /* Spacing */
+  --spacing-0: 0rem;
   --spacing-100: 0.5rem; /* 8px */
   --spacing-150: 0.75rem; /* 12px */
   --spacing-200: 1rem; /* 16px */
@@ -139,6 +140,16 @@ body {
   line-height: var(--line-height-2);
 }
 
+.visually-hidden:not(:focus):not(:active) {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  white-space: nowrap;
+  clip-path: inset(50%);
+  clip: rect(0px, 0px, 0px, 0px);
+}
+
 article {
   max-width: 23.4375rem; /* 375px */
   background-color: var(--color-neutral-1);
@@ -204,4 +215,27 @@ ol {
 ::marker {
   color: var(--color-secondary-2);
   font-weight: var(--font-weight-bold);
+}
+
+tr {
+  display: flex;
+  border-bottom: var(--border-width-1) solid var(--color-neutral-4);
+  gap: var(--spacing-200);
+}
+
+tr > td:nth-child(2) {
+  color: var(--color-secondary-2);
+  font-weight: var(--font-weight-bold);
+}
+
+td {
+  width: 50%;
+}
+
+td:nth-child(1) {
+  padding-left: var(--spacing-400);
+}
+
+td:nth-child(2) {
+  padding-right: var(--spacing-400);
 }
