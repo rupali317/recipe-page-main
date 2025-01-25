@@ -230,6 +230,11 @@ tr {
   display: flex;
   border-bottom: var(--border-width-2) solid var(--color-neutral-4);
   gap: var(--spacing-200);
+  padding-bottom: var(--spacing-150);
+}
+
+tr:not(:first-child) {
+  padding-top: var(--spacing-150);
 }
 
 tr > td:nth-child(2) {
