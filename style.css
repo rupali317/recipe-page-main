@@ -233,6 +233,10 @@ tr {
   padding-bottom: var(--spacing-150);
 }
 
+tr:last-child {
+  border-bottom: none;
+}
+
 tr:not(:first-child) {
   padding-top: var(--spacing-150);
 }
