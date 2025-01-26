@@ -281,3 +281,14 @@ td:nth-child(2) {
     font-size: var(--font-size-5);
   }
 }
+
+@media (min-width: 80rem) {
+  article {
+    max-width: 46rem; /* 736px */
+
+    /* RRC: check */
+    img {
+      width: 41rem; /* 656px */
+    }
+  }
+}
