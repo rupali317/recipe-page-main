@@ -253,3 +253,31 @@ td:nth-child(1) {
 td:nth-child(2) {
   padding-right: var(--spacing-400);
 }
+
+@media (min-width: 48rem) {
+  body {
+    padding: var(--spacing-300);
+  }
+
+  article {
+    max-width: 38.5rem; /* 616px */
+    border-radius: var(--border-radius-softer);
+    padding: var(--spacing-500);
+
+    .content {
+      padding: var(--spacing-500) var(--spacing-0) var(--spacing-0)
+        var(--spacing-0);
+    }
+
+    /* RRC: check */
+    img {
+      border-radius: var(--border-radius-soft);
+      width: 33.5rem; /* 536px */
+      height: 18.75rem; /* 300px */
+    }
+  }
+
+  h1 {
+    font-size: var(--font-size-5);
+  }
+}
