@@ -235,6 +235,7 @@ tr {
 
 tr:last-child {
   border-bottom: none;
+  padding-bottom: var(--spacing-0);
 }
 
 tr:not(:first-child) {
