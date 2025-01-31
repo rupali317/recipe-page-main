@@ -274,11 +274,10 @@ td:nth-child(2) {
         var(--spacing-0);
     }
 
-    /* RRC: check */
     img {
       border-radius: var(--border-radius-soft);
-      width: 33.5rem; /* 536px */
-      height: 18.75rem; /* 300px */
+      width: 100%;
+      height: auto;
     }
   }
 
@@ -290,10 +289,5 @@ td:nth-child(2) {
 @media (min-width: 80rem) {
   article {
     max-width: 46rem; /* 736px */
-
-    /* RRC: check */
-    img {
-      width: 41rem; /* 656px */
-    }
   }
 }
