@@ -176,8 +176,7 @@ article {
   background-color: var(--color-primary-2);
   border-radius: var(--border-radius-soft);
 
-  h2,
-  div {
+  h2 {
     font-family: "Outfit";
     color: var(--color-primary-1);
     font-size: var(--font-size-2);
