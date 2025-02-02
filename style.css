@@ -291,10 +291,10 @@ td:nth-child(2) {
 @media (min-width: 80rem) {
   article {
     max-width: 46rem; /* 736px */
-  }
 
-  img {
-    width: 41rem; /* 656px */
-    height: 18.75rem; /* 300px */
+    img {
+      width: 41rem; /* 656px */
+      height: 18.75rem; /* 300px */
+    }
   }
 }
