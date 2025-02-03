@@ -214,8 +214,20 @@ ol {
 }
 
 ul {
-  li::marker {
+  /* li::marker {
     font-size: xx-small;
+  } */
+  list-style: none;
+
+  li {
+    display: flex;
+    gap: var(--spacing-200);
+    align-items: center;
+  }
+
+  li:before {
+    content: ".";
+    font-size: xx-large;
   }
 }
 
@@ -225,7 +237,7 @@ ul {
 }
 
 li {
-  padding-left: var(--spacing-200);
+  /* padding-left: var(--spacing-200); */
 }
 
 hr {
