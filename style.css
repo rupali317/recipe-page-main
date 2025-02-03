@@ -213,6 +213,12 @@ ol {
   padding-inline-start: var(--spacing-300);
 }
 
+ul {
+  li::marker {
+    font-size: xx-small;
+  }
+}
+
 ::marker {
   color: var(--color-secondary-2);
   font-weight: var(--font-weight-bold);
