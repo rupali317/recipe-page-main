@@ -210,10 +210,18 @@ ol {
   display: flex;
   flex-direction: column;
   gap: var(--spacing-100);
-  padding-inline-start: var(--spacing-100);
+}
+
+ol {
+  padding-inline-start: var(--spacing-300);
+
+  li {
+    padding-left: var(--spacing-200);
+  }
 }
 
 ul {
+  padding-inline-start: var(--spacing-100);
   list-style: none;
 
   li {
@@ -233,10 +241,6 @@ ul {
   color: var(--color-secondary-2);
   font-weight: var(--font-weight-bold);
 }
-
-/* li {
-  padding-left: var(--spacing-200);
-} */
 
 hr {
   border: var(--border-width-1) solid var(--color-neutral-4);
