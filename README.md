@@ -9,6 +9,7 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
   - [1. Desktop version](#1-desktop-version)
   - [2. Tablet version](#2-tablet-version)
   - [3. Mobile version](#3-mobile-version)
+- [Page speed insights](#page-speed-insights)
 - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
@@ -21,7 +22,7 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 This challenge will help one focus on writing semantic HTML. Ensure to think through what HTML elements are most appropriate for each piece of content.
 
-## Screenshots (RRC TODO)
+## Screenshots
 
 ### 1. Desktop version
 
@@ -34,6 +35,12 @@ This challenge will help one focus on writing semantic HTML. Ensure to think thr
 ### 3. Mobile version
 
 ![Recipe page mobile version](./assets/screenshots/recipe-page-mobile.png)
+
+## Page speed insights
+
+[Mobile version](https://pagespeed.web.dev/analysis/https-rupali317-github-io-recipe-page-main/nw58oxi22w?use_original_url=true&form_factor=mobile)
+
+[Desktop version](https://pagespeed.web.dev/analysis/https-rupali317-github-io-recipe-page-main/nw58oxi22w?use_original_url=true&form_factor=desktop)
 
 ## Links
 
