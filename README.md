@@ -65,15 +65,11 @@ This challenge will help one focus on writing semantic HTML. Ensure to think thr
   - (Virtual) The mobile and tablet devices mentioned under Chrome's dev console.
 - Screen reader: MacOS VoiceOver.
 
-### What I learned (RRC TODO)
+### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+- I faced a dilemma where for the heading of the pink section had a different styling than the rest of <h2>. I had to choose if I should use <h2> or if I should use <div role="heading" aria-level="2">. Using <h2> meant I had to use a customised styling for it since it was different from other <h2> and normally the expectation is that the look and feel of the heading level should be consistent according to a test from accessibility insights. Using the <div> version could have passed the particular test related to consistent styling for headings. Ultimately, I decided to use <h2> and added a customised styling for it since it is a better option for accessibility than a using a <div>.
 
-To see how you can add code snippets, see below:
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
+- The `::marker` is not a child of the list elemnent. It is just a part of how the browser renders the list item. Therefore, adding a `display:flex` on the list item will not turn the `::marker` into a flex-item. In fact, it disappears.
 
 ## Acknowledgement
 
