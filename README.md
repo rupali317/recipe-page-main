@@ -71,6 +71,16 @@ This challenge will help one focus on writing semantic HTML. Ensure to think thr
 
 - The `::marker` is not a child of the list elemnent. It is just a part of how the browser renders the list item. Therefore, adding a `display:flex` on the list item will not turn the `::marker` into a flex-item. In fact, it disappears.
 
+- Center aligning the bullets and text especially for mobile view. The `::marker` does not support CSS properties like padding, margin, or position. Therefore, I applied `list-style: none` for `ul` and applied the following:
+
+```css
+li:before {
+  content: "•";
+  font-size: x-large;
+  color: var(--color-secondary-2);
+}
+```
+
 ## Acknowledgement
 
 - In all my projects, I always refer to CSS reset to provide a clean/consistent slate for the CSS stylings across all the browsers. [Joshua's CSS reset](https://www.joshwcomeau.com/css/custom-css-reset/), [Andy Bell's CSS reset](https://piccalil.li/blog/a-more-modern-css-reset/)
