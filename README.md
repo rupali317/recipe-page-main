@@ -87,6 +87,8 @@ li:before {
 
 - In all my projects, I always refer to CSS reset to provide a clean/consistent slate for the CSS stylings across all the browsers. [Joshua's CSS reset](https://www.joshwcomeau.com/css/custom-css-reset/), [Andy Bell's CSS reset](https://piccalil.li/blog/a-more-modern-css-reset/)
 
+- Used [Image editor - Squoosh](https://squoosh.app/editor) to resize the image to improve the bandwidth
+
 ## Author
 
 - Linkedin profile - [Rupali Roy Choudhury](https://www.linkedin.com/in/rupali-rc/)
