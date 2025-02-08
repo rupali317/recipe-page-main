@@ -115,7 +115,8 @@ img {
 /* Avoid text overflows */
 p,
 h1,
-h2 {
+h2,
+h3 {
   overflow-wrap: break-word;
 }
 
@@ -125,7 +126,8 @@ p {
 }
 
 h1,
-h2 {
+h2,
+h3 {
   line-height: 1.1;
 }
 
@@ -176,7 +178,7 @@ article {
   background-color: var(--color-primary-2);
   border-radius: var(--border-radius-soft);
 
-  h2 {
+  h3 {
     font-family: "Outfit";
     color: var(--color-primary-1);
     font-size: var(--font-size-2);
@@ -189,7 +191,7 @@ article {
   }
 }
 
-h1 {
+h2 {
   font-family: "YoungSerif";
   font-weight: var(--font-weight-regular);
   color: var(--color-neutral-2);
@@ -197,7 +199,7 @@ h1 {
   line-height: var(--line-height-1);
 }
 
-h2 {
+h3 {
   font-family: "YoungSerif";
   font-weight: var(--font-weight-regular);
   color: var(--color-secondary-2);
@@ -301,7 +303,7 @@ td:nth-child(2) {
     }
   }
 
-  h1 {
+  h2 {
     font-size: var(--font-size-5);
   }
 }
