@@ -81,6 +81,8 @@ li:before {
 }
 ```
 
+- I faced an issue where the omelette image being loaded was larger than required. This caused unnecessary bandwidth usage and increased page load time. I resized the image and it improved the performance of the page.
+
 ## Acknowledgement
 
 - In all my projects, I always refer to CSS reset to provide a clean/consistent slate for the CSS stylings across all the browsers. [Joshua's CSS reset](https://www.joshwcomeau.com/css/custom-css-reset/), [Andy Bell's CSS reset](https://piccalil.li/blog/a-more-modern-css-reset/)
